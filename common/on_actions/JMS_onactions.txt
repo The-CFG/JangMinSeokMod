@@ -1,0 +1,14 @@
+on_actions = {
+    on_state_control_changed = {
+        effect = {
+            if = {
+                limit = {
+                    JMS = { controls_state = 1030 }
+                }
+                recruit_character = JMS_TheCFG
+                recruit_character = JMS_Mangryeong
+                recruit_character = JMS_SeongCheonYa
+            }
+        }
+    }
+}
