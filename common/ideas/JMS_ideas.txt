@@ -1,0 +1,10 @@
+ideas = {
+    country = {
+        jew_press = {
+            modifier = {
+                stability_factor = -0.15
+                fascism_drift = 0.03
+            }
+        }
+    }
+}
