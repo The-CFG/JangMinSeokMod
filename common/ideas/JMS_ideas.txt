@@ -41,5 +41,32 @@ ideas = {
                 org_loss_when_moving = 1.5
             }
         }
+        JMS_religion_politics_separation = {
+            modifier = {
+                stability_factor = -0.05
+                research_speed_factor = 0.05
+            }
+            removal_cost = -1
+        }
+        JMS_personal_cult = {
+            modifier = {
+                stability_factor = 0.05
+                neutrality_drift = 0.1
+            }
+            removal_cost = -1
+        }
+        JMS_join_of_people_party = {
+            modifier = {
+                democratic_drift = 0.1
+            }
+            removal_cost = -1
+        }
+        JMS_rejected_people_party = {
+            modifier = {
+                democratic_drift = 0.02
+                stability_factor = -0.1
+            }
+            removal_cost = -1
+        }
     }
 }

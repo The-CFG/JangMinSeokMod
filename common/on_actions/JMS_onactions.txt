@@ -5,9 +5,7 @@ on_actions = {
                 limit = {
                     JMS = { controls_state = 1030 }
                 }
-                recruit_character = JMS_TheCFG
-                recruit_character = JMS_Mangryeong
-                recruit_character = JMS_SeongCheonYa
+                country_event = JMS.2
             }
         }
     }

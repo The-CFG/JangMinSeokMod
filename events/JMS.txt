@@ -1,0 +1,98 @@
+add_namespace = JMS
+
+country_event = {
+	id = JMS.1
+	title = JMS.1.t
+	desc = JMS.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = JMS.1.a
+		525 = { 
+			set_province_name = {
+    			id = 7125
+    			name = "경성"
+		  	}
+			set_victory_points = {
+				province = 7125
+				value = 30
+			} 
+		}
+	}
+	option = {
+		name = JMS.1.b
+		525 = {
+			set_victory_points = {
+				province = 7125
+				value = 50
+			}
+		}
+	}
+	option = {
+		name = JMS.1.c
+		525 = {
+			set_province_name = {
+    			id = 7125
+    			name = "한성"
+		  	}
+			set_victory_points = {
+				province = 7125
+				value = 30
+			}
+		}
+	}
+	option = {
+		name = JMS.1.e
+		525 = {
+			set_province_name = {
+				id = 7125
+				name = "민석"
+		  	}
+			set_victory_points = {
+				province = 7125
+				value = 50
+			}
+		}
+		add_ideas = JMS_personal_cult
+	}
+}
+
+country_event = {
+	id = JMS.2
+	title = JMS.2.t
+	desc = JMS.2.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = JMS.2.a
+		add_timed_idea = {
+			idea = JMS_join_of_people_party
+			days = 90
+		}
+		recruit_character = JMS_SeongCheonYa
+		recruit_character = JMS_TheCFG
+		recruit_character = JMS_Mangryeong
+		set_party_name = {
+			ideology = democratic
+			long_name = "민중자유당"
+			name = "민중자유당"
+		}
+	}
+	option = {
+		name = JMS.2.b
+		add_timed_idea = {
+			idea = JMS_rejected_people_party
+			days = 90
+		}
+		recruit_character = JMS_SeongCheonYa
+		recruit_character = JMS_TheCFG
+		recruit_character = JMS_Mangryeong
+		set_party_name = {
+			ideology = democratic
+			long_name = "민중자유당"
+			name = "민중자유당"
+		}
+	}
+}

@@ -35,3 +35,5 @@ recruit_character = JMS_Bldory
 recruit_character = JMS_Potato
 recruit_character = JMS_BaekSanSu
 recruit_character = JMS_MiddleAge_Clown
+recruit_character = JMS_Mangnani
+recruit_character = JMS_Fresh_Water

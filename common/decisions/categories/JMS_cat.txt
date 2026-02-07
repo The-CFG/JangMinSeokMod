@@ -1,4 +1,4 @@
-korean_decisions_cat = {
+JMS_decisions_cat = {
     allowed = {
         original_tag = JMS
     }

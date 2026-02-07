@@ -1,5 +1,12 @@
-korean_decisions_cat = {
-    return_of_temporal_gov = {
-        
+JMS_decisions_cat = {
+    capital_name_problem = {
+        cost = 200
+        fire_only_once = yes
+        ai_will_do = {
+            factor = 99
+        }
+        complete_effect = {
+            country_event = JMS.1
+        }
     }
 }

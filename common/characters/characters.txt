@@ -30,7 +30,7 @@ characters = {
 		name = JMS_Putini
 		country_leader = {
 			ideology = fascism_ideology
-			traits = {  }
+			traits = { queer_leader }
 			expire = "1949.1.1"
 			id = -1
 		}
@@ -39,7 +39,7 @@ characters = {
 		name = JMS_TheCFG
 		country_leader = {
 			ideology = conservatism
-			traits = {  }
+			traits = { competent_administrator former_diplomat }
 			expire = "1949.1.1"
 			id = -1
 		}
@@ -47,8 +47,8 @@ characters = {
 	JMS_Mangryeong = {
 		name = JMS_Mangryeong
 		country_leader = {
-			ideology = moderatism
-			traits = {  }
+			ideology = socialism
+			traits = { mechanic_leader return_from_afk }
 			expire = "1949.1.1"
 			id = -1
 		}
@@ -74,8 +74,8 @@ characters = {
 	JMS_MiddleAge_Clown = {
 		name = JMS_MiddleAge_Clown
 		country_leader = {
-			ideology = marxism
-			traits = { true_leader_of_army naval_queen }
+			ideology = leninism
+			traits = { true_leader_of_army naval_queen heavy_christian }
 			expire = "1949.1.1"
 			id = -1
 		}
@@ -83,8 +83,8 @@ characters = {
 	JMS_Fresh_Water = {
 		name = JMS_Fresh_Water
 		country_leader = {
-			ideology = marxism
-			traits = {  }
+			ideology = stalinism
+			traits = { king_of_gorosi heavy_christian }
 			expire = "1949.1.1"
 			id = -1
 		}
@@ -107,9 +107,11 @@ characters = {
 	}
 	JMS_SeongCheonYa = {
 		name = JMS_SeongCheonYa
-		advisor = {
-			slot = political_advisor
-			traits = { caliph }
+		country_leader = {
+			ideology = conservatism
+			traits = { great_cheonya oldest_leader }
+			expire = "1949.1.1"
+			id = -1
 		}
 	}
 }
