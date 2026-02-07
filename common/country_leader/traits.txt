@@ -1,39 +1,93 @@
 leader_traits = {
-	weak_leader = {
-		stability_factor = -0.1
-		war_support_factor = -0.2
-		political_power_gain = -0.1
-		conscription_factor = -0.9
+	center_of_country = {
+		stability_factor = 0.1
+		war_stability_factor = 0.05
+		stability_weekly_factor = 0.005
 	}
-	crazy = {
-		stability_factor = -0.05
-		war_support_factor = 0.1
-		fascism_drift = 0.05
+	mungwa = {
+		research_speed_factor = -0.2
+	}
+	anchovy = {
+		army_morale_factor = -0.1
+		army_defence_factor = -0.1
+		army_attack_factor = -0.1
+		industrial_capacity_factory = -0.2
+		industrial_capacity_dockyard = -0.55
+		army_speed_factor = 0.25
+	}
+	likes_DDR = {
+		stability_factor = 0.05
+	}
+	noisy = {
+		stability_weekly_factor = -0.1
+		research_speed_factor = -0.05
+		industrial_capacity_factory = 0.05
+	}
+	silent_romantic_literary = {
+		political_power_factor = 0.05
+		stability_factor = 0.15
+		democratic_drift = 0.02
+	}
+	indecisive = {
+		stability_factor = -0.1
+		democratic_drift = -0.05
+	}
+	sex_dripper = {
+		stability_factor = -0.1
+		political_power_gain = 0.1
 		communism_drift = 0.05
 	}
-	super_crazy = {
-		stability_factor = -0.1
-		war_support_factor = 0.2
+	legal_marxist = {
+		production_speed_buildings_factor = 0.07
+		industrial_capacity_factory = 0.1
+	}
+	true_leader_of_army = {
+		army_attack_factor = 0.2
+		army_defence_factor = 0.2
+		army_org_factor = 0.2
+		army_morale_factor = 0.3
+	}
+	naval_queen = {
+		naval_invasion_penalty = -0.5
+		naval_speed_factor = 0.15
+	}
+	zionist = {
+		stability_factor = -0.2
+		defensive_war_stability_factor = 0.1
+	}
+	nationalist = {
 		fascism_drift = 0.1
-		communism_drift = 0.1
-	}
-	queer_leader = {
-		conscription_factor = 0.1
-	}
-	military_otaku = {
-		army_attack_factor = 0.05
-		army_defence_factor = 0.05
-		army_speed_factor = 0.05
-		fuel_gain_factor = 0.05
 		army_core_attack_factor = 0.05
 		army_core_defence_factor = 0.05
+		monthly_population = -0.01
 	}
-	ghost = {
-		army_speed_factor = 0.1
-		army_core_defence_factor = -0.05
-		resistance_activity = 0.5
+	queer_leader = {
+		political_power_factor = -0.2
+		stability_factor = -0.3
+		conscription_factor = 0.05
+		monthly_population = 0.05
 	}
-	popular_author = {
-		guarantee_cost = -1
+	king_of_gorosi = {
+		political_power_factor = 0.05
+		stability_factor = 0.05
+		war_support_factor = 0.1
+	}
+	heavy_christian = {
+		stability_factor = 0.05
+		war_support_factor = 0.1
+		offensive_war_stability_factor = -0.15
+	}
+	stubborn = {
+		political_power_factor = 0.2
+		stability_factor = -0.15
+		war_support_factor = -0.4
+	}
+	no_need = {
+		army_attack_factor = -0.5
+		army_defence_factor = -0.5
+		research_speed_factor = -0.4
+	}
+	unpopular_leader = {
+		stability_factor = -0.5
 	}
 }

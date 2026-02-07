@@ -3,7 +3,7 @@ characters = {
 		name = JMS_Jang_Min_Seok
 		country_leader = {
 			ideology = despotism
-			traits = { weak_leader }
+			traits = { center_of_country mungwa anchovy }
 			expire = "1949.1.1"
 			id = -1
 		}
@@ -11,8 +11,8 @@ characters = {
 	JMS_Jew = {
 		name = JMS_Jew
 		country_leader = {
-			ideology = marxism
-			traits = { crazy military_otaku }
+			ideology = fascism_ideology
+			traits = { zionist nationalist }
 			expire = "1949.1.1"
 			id = -1
 		}
@@ -20,8 +20,8 @@ characters = {
 	JMS_Ibeori = {
 		name = JMS_Ibeori
 		country_leader = {
-			ideology = oligarchism
-			traits = { popular_author }
+			ideology = liberalism
+			traits = { silent_romantic_literary indecisive }
 			expire = "1949.1.1"
 			id = -1
 		}
@@ -29,8 +29,8 @@ characters = {
 	JMS_Putini = {
 		name = JMS_Putini
 		country_leader = {
-			ideology = anarchist_communism
-			traits = { super_crazy queer_leader }
+			ideology = fascism_ideology
+			traits = {  }
 			expire = "1949.1.1"
 			id = -1
 		}
@@ -44,20 +44,11 @@ characters = {
 			id = -1
 		}
 	}
-	JMS_Bldory = {
-		name = JMS_Bldory
-		country_leader = {
-			ideology = liberalism
-			traits = {  }
-			expire = "1949.1.1"
-			id = -1
-		}
-	}
 	JMS_Mangryeong = {
 		name = JMS_Mangryeong
 		country_leader = {
 			ideology = moderatism
-			traits = { queer_leader ghost }
+			traits = {  }
 			expire = "1949.1.1"
 			id = -1
 		}
@@ -65,8 +56,44 @@ characters = {
 	JMS_Potato = {
 		name = JMS_Potato
 		country_leader = {
-			ideology = nazism
-			traits = { crazy queer_leader }
+			ideology = fascism_ideology
+			traits = { likes_DDR noisy }
+			expire = "1949.1.1"
+			id = -1
+		}
+	}
+	JMS_BaekSanSu = {
+		name = JMS_BaekSanSu
+		country_leader = {
+			ideology = marxism
+			traits = { legal_marxist sex_dripper }
+			expire = "1949.1.1"
+			id = -1
+		}
+	}
+	JMS_MiddleAge_Clown = {
+		name = JMS_MiddleAge_Clown
+		country_leader = {
+			ideology = marxism
+			traits = { true_leader_of_army naval_queen }
+			expire = "1949.1.1"
+			id = -1
+		}
+	}
+	JMS_Fresh_Water = {
+		name = JMS_Fresh_Water
+		country_leader = {
+			ideology = marxism
+			traits = {  }
+			expire = "1949.1.1"
+			id = -1
+		}
+	}
+	JMS_Mangnani = {
+		name = JMS_Mangnani
+		country_leader = {
+			ideology = despotism
+			traits = { stubborn unpopular_leader no_need }
 			expire = "1949.1.1"
 			id = -1
 		}
@@ -76,6 +103,13 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			traits = { silent_workhorse }
+		}
+	}
+	JMS_SeongCheonYa = {
+		name = JMS_SeongCheonYa
+		advisor = {
+			slot = political_advisor
+			traits = { caliph }
 		}
 	}
 }

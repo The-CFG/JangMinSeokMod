@@ -1,4 +1,4 @@
-﻿capital = 1031 # Seoul/Keijō/Gyeongseong
+﻿capital = 525 # Seoul/Keijō/Gyeongseong
 
 # Starting tech
 set_technology = {
@@ -21,11 +21,17 @@ set_popularities = {
 	neutrality = 10
 }
 
+add_ideas = JMS_Block_No_Join
+add_ideas = JMS_Jew_Press
+add_ideas = JMS_Pain_Of_Migration
+add_ideas = JMS_Lack_Of_Population
+add_ideas = JMS_Disbanded_Army
+
 recruit_character = JMS_Jang_Min_Seok
 recruit_character = JMS_Jew
 recruit_character = JMS_Ibeori
 recruit_character = JMS_Putini
-recruit_character = JMS_TheCFG
 recruit_character = JMS_Bldory
-recruit_character = JMS_Mangryeong
 recruit_character = JMS_Potato
+recruit_character = JMS_BaekSanSu
+recruit_character = JMS_MiddleAge_Clown

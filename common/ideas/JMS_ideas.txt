@@ -5,14 +5,41 @@ ideas = {
                 stability_factor = -0.15
                 fascism_drift = 0.03
             }
+            removal_cost = -1
         }
         JMS_Block_No_Join = {
 			rule = {
 				can_join_factions = no
-				can_create_factions = no
 				can_send_volunteers = no
-				
+                can_create_factions = no
 			}
+            modifier = {
+                enemy_justify_war_goal_time = 15
+            }
+            removal_cost = -1
 		}
+        JMS_Pain_Of_Migration = {
+            modifier = {
+                stability_factor = -0.1
+                research_speed_factor = -0.6
+            }
+            removal_cost = -1
+        }
+        JMS_Lack_Of_Population = {
+            modifier = {
+                stability_factor = 0.05
+                army_org_regain = -0.1
+            }
+        }
+        JMS_Disbanded_Army = {
+            modifier = {
+                army_speed_factor = -0.55
+                army_attack_factor = -0.85
+                army_defence_factor = -0.6
+                army_org_factor = -0.95
+                army_morale_factor = -0.7
+                org_loss_when_moving = 1.5
+            }
+        }
     }
 }
