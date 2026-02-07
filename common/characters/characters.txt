@@ -1,0 +1,81 @@
+characters = {
+	JMS_Jang_Min_Seok = {
+		name = JMS_Jang_Min_Seok
+		country_leader = {
+			ideology = despotism
+			traits = { weak_leader }
+			expire = "1949.1.1"
+			id = -1
+		}
+	}
+	JMS_Jew = {
+		name = JMS_Jew
+		country_leader = {
+			ideology = marxism
+			traits = { crazy military_otaku }
+			expire = "1949.1.1"
+			id = -1
+		}
+	}
+	JMS_Ibeori = {
+		name = JMS_Ibeori
+		country_leader = {
+			ideology = oligarchism
+			traits = { popular_author }
+			expire = "1949.1.1"
+			id = -1
+		}
+	}
+	JMS_Putini = {
+		name = JMS_Putini
+		country_leader = {
+			ideology = anarchist_communism
+			traits = { super_crazy queer_leader }
+			expire = "1949.1.1"
+			id = -1
+		}
+	}
+	JMS_TheCFG = {
+		name = JMS_TheCFG
+		country_leader = {
+			ideology = conservatism
+			traits = {  }
+			expire = "1949.1.1"
+			id = -1
+		}
+	}
+	JMS_Bldory = {
+		name = JMS_Bldory
+		country_leader = {
+			ideology = liberalism
+			traits = {  }
+			expire = "1949.1.1"
+			id = -1
+		}
+	}
+	JMS_Mangryeong = {
+		name = JMS_Mangryeong
+		country_leader = {
+			ideology = moderatism
+			traits = { queer_leader ghost }
+			expire = "1949.1.1"
+			id = -1
+		}
+	}
+	JMS_Potato = {
+		name = JMS_Potato
+		country_leader = {
+			ideology = nazism
+			traits = { crazy queer_leader }
+			expire = "1949.1.1"
+			id = -1
+		}
+	}
+	JMS_Bldory = {
+		name = JMS_Bldory
+		advisor = {
+			slot = political_advisor
+			traits = { silent_workhorse }
+		}
+	}
+}

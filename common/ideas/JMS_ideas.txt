@@ -1,10 +1,18 @@
 ideas = {
     country = {
-        jew_press = {
+        JMS_Jew_Press = {
             modifier = {
                 stability_factor = -0.15
                 fascism_drift = 0.03
             }
         }
+        JMS_Block_No_Join = {
+			rule = {
+				can_join_factions = no
+				can_create_factions = no
+				can_send_volunteers = no
+				
+			}
+		}
     }
 }

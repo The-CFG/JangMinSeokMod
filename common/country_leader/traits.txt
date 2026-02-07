@@ -1,0 +1,39 @@
+leader_traits = {
+	weak_leader = {
+		stability_factor = -0.1
+		war_support_factor = -0.2
+		political_power_gain = -0.1
+		conscription_factor = -0.9
+	}
+	crazy = {
+		stability_factor = -0.05
+		war_support_factor = 0.1
+		fascism_drift = 0.05
+		communism_drift = 0.05
+	}
+	super_crazy = {
+		stability_factor = -0.1
+		war_support_factor = 0.2
+		fascism_drift = 0.1
+		communism_drift = 0.1
+	}
+	queer_leader = {
+		conscription_factor = 0.1
+	}
+	military_otaku = {
+		army_attack_factor = 0.05
+		army_defence_factor = 0.05
+		army_speed_factor = 0.05
+		fuel_gain_factor = 0.05
+		army_core_attack_factor = 0.05
+		army_core_defence_factor = 0.05
+	}
+	ghost = {
+		army_speed_factor = 0.1
+		army_core_defence_factor = -0.05
+		resistance_activity = 0.5
+	}
+	popular_author = {
+		guarantee_cost = -1
+	}
+}

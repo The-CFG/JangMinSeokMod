@@ -1,0 +1,13 @@
+on_actions = {
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = { 525 = { is_controlled_by = JMS } }
+			}
+			set_province_name = {
+				id = 7125
+				name = "게이조이고"
+			}
+		}
+	}
+}
